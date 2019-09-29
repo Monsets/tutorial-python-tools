@@ -1,5 +1,7 @@
+import sympy
+
 def isPrime(number):
-    if number%2 == 0:
+    if not sympy.isprime(number):
         return False
     return True
 
